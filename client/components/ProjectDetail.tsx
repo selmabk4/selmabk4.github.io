@@ -170,13 +170,13 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               </p>
               <div className="h-1 w-12 bg-primary" />
               <a
-                href="https://selmab.com/images/xrprosess.png"
+                href="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F319f96b4e5dd496e83c29c6b5483e68c?format=webp&width=800&height=1200"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-10 block overflow-hidden border border-border bg-white"
               >
                 <img
-                  src="https://selmab.com/images/xrprosess.png"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F319f96b4e5dd496e83c29c6b5483e68c?format=webp&width=800&height=1200"
                   alt="Oversikt over designprosessen for SIMInnlandet"
                   loading="lazy"
                   className="h-auto w-full object-contain"
@@ -193,7 +193,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 <figure className="w-full overflow-hidden border border-border bg-white shadow-sm">
                   <div className="aspect-square bg-[#f0eef8]">
                     <img
-                      src="https://selmab.com/images/xrekorn.png"
+                      src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F167b49a27f2e4958b48ba443e556f75b?format=webp&width=800&height=1200"
                       alt="Maskoten til løsningen: XR-ekorn"
                       loading="lazy"
                       className="h-full w-full object-contain"
@@ -233,7 +233,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <div className="mt-10 grid gap-6 sm:grid-cols-2">
                 <figure className="overflow-hidden border border-border bg-white">
                   <img
-                    src="https://selmab.com/images/xrpersona1.png"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F8e5b32384bf34c4a8fadf819a8989b2a?format=webp&width=800&height=1200"
                     alt="Persona: Ellinor"
                     loading="lazy"
                     className="h-auto w-full object-contain"
@@ -241,7 +241,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </figure>
                 <figure className="overflow-hidden border border-border bg-white">
                   <img
-                    src="https://selmab.com/images/xrpersona2.png"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F45bdcff8611547418fccec6b2ac5273e?format=webp&width=800&height=1200"
                     alt="Persona: Leif"
                     loading="lazy"
                     className="h-auto w-full object-contain"
@@ -264,7 +264,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
               <div className="mt-10 grid gap-6 sm:grid-cols-2">
                 <figure className="overflow-hidden border border-border bg-white">
                   <img
-                    src="https://selmab.com/images/utkast.png"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F97193a04fb7d40e39545e98b2a0a3851?format=webp&width=800&height=1200"
                     alt="Utkast 1 av sitemap"
                     loading="lazy"
                     className="h-auto w-full object-contain"
@@ -273,7 +273,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                 </figure>
                 <figure className="overflow-hidden border border-border bg-white">
                   <img
-                    src="https://selmab.com/images/xrsitemap.png"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F58a0d0461c574ad9b975cf1e40753a99?format=webp&width=800&height=1200"
                     alt="Endelig sitemap for SIMInnlandet"
                     loading="lazy"
                     className="h-auto w-full object-contain"
@@ -321,7 +321,7 @@ export default function ProjectDetail({ project }: { project: ProjectDetailData 
                   rel="noreferrer"
                 >
                   <img
-                    src="https://selmab.com/images/xrl%C3%B8sning.png"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fee7e8eeb2dd747cea7779fdce51012f9?format=webp&width=800&height=1200"
                     alt="Skjermbilde av prototype-løsningen"
                     loading="lazy"
                     className="h-auto w-full object-contain"
