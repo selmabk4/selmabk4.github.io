@@ -35,7 +35,11 @@ export default function EmanuelVigelandMuseum() {
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-            Emanuel Vigeland er bror av Gustav Vigeland, som er kjent for Vigelandsparken i Oslo. Mausoleet er mørkt og malt fra gulv til tak. Atmosfæren er spesiell og mystisk.
+            Gjennom emnet Designsystemer og universell utforming jobbet vi med
+            Emanuel Vigeland Museum som oppdragsgiver. Dette var et
+            tverrfaglig prosjekt der jeg samarbeidet med studenter fra grafisk
+            design. Oppgaven gikk ut på å modernisere den utdaterte nettsiden
+            og bygge et helhetlig designsystem.
           </p>
 
           <dl className="mt-12 grid gap-x-6 gap-y-10 text-sm sm:grid-cols-2 lg:grid-cols-4">
@@ -109,9 +113,14 @@ export default function EmanuelVigelandMuseum() {
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
           <div className="lg:flex lg:items-start lg:gap-12">
-            <p className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base lg:mb-0 lg:flex-1">
-              Prosjektet startet med en tur til museet. Slik fikk vi ikke bare innsikt i kunsten og historien der, men også verdifull inspirasjon til å skape museets unike tone of voice.
-            </p>
+            <div className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base lg:mb-0 lg:flex-1">
+              <p>
+                Prosjektet startet med en tur til museet. Slik fikk vi ikke bare innsikt i kunsten og historien der, men også verdifull inspirasjon til å skape museets unike tone of voice.
+              </p>
+              <p className="mt-6">
+                Emanuel Vigeland er bror av Gustav Vigeland, som er kjent for Vigelandsparken i Oslo. Mausoleet er mørkt og malt fra gulv til tak. Atmosfæren er spesiell og mystisk.
+              </p>
+            </div>
             <div className="relative h-[360px] w-full max-w-[420px] lg:w-[420px] lg:shrink-0">
               {[
                 ["804c4de5f06f40e1aca4774ef375ed2b", "Ekskursjon ved Emanuel Vigeland Museum", "left-[2%] top-10 rotate-[-8deg]"],
