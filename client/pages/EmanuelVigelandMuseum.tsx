@@ -114,7 +114,7 @@ export default function EmanuelVigelandMuseum() {
           <div className="mb-10 h-1 w-12 bg-primary" />
           <div className="lg:flex lg:items-start lg:gap-12">
             <p className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base lg:mb-0 lg:flex-1">
-              Vi dro på ekskursjon til museet for å få en bedre forståelse for museets tone of voice
+              Prosjektet startet med en tur til museet. Slik fikk vi ikke bare innsikt i kunsten og historien der, men også verdifull inspirasjon til å skape museets unike tone of voice.
             </p>
             <div className="relative h-[360px] w-full max-w-[420px] lg:w-[420px] lg:shrink-0">
               {[
