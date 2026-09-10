@@ -112,27 +112,29 @@ export default function EmanuelVigelandMuseum() {
             Ekskursjon
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
-          <p className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-            Vi dro på ekskursjon til museet for å få en bedre forståelse for museets tone of voice
-          </p>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              ["10563b46b8864ac7ba44ec8f98a4c004", "Ekskursjon ved Emanuel Vigeland Museum"],
-              ["6352b11cd9f04bbd83e1edb8fe17ed22", "Interiør fra Emanuel Vigeland Museum"],
-              ["c74db1ac16ee444b94b2475d3ef9eac1", "Detalj fra museet"],
-              ["401be44a01644ebfaf3f5d0401de816f", "Inngang til museet"],
-              ["5e71c8ef28d44d9b84456ff79f4e3e7b", "Emanuel Vigeland Museum utvendig"],
-              ["8436319838ab4aef87355767bf21727b", "Detalj fra museets interiør"],
-            ].map(([asset, alt]) => (
-              <div key={asset} className="overflow-hidden border border-border bg-white">
-                <img
-                  src={`https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F${asset}?format=webp&width=800&height=1200`}
-                  alt={alt}
-                  loading="lazy"
-                  className="h-auto w-full"
-                />
-              </div>
-            ))}
+          <div className="lg:flex lg:items-start lg:gap-12">
+            <p className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base lg:mb-0 lg:flex-1">
+              Vi dro på ekskursjon til museet for å få en bedre forståelse for museets tone of voice
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:w-[420px] lg:shrink-0">
+              {[
+                ["10563b46b8864ac7ba44ec8f98a4c004", "Ekskursjon ved Emanuel Vigeland Museum"],
+                ["6352b11cd9f04bbd83e1edb8fe17ed22", "Interiør fra Emanuel Vigeland Museum"],
+                ["c74db1ac16ee444b94b2475d3ef9eac1", "Detalj fra museet"],
+                ["401be44a01644ebfaf3f5d0401de816f", "Inngang til museet"],
+                ["5e71c8ef28d44d9b84456ff79f4e3e7b", "Emanuel Vigeland Museum utvendig"],
+                ["8436319838ab4aef87355767bf21727b", "Detalj fra museets interiør"],
+              ].map(([asset, alt]) => (
+                <div key={asset} className="overflow-hidden border border-border bg-white">
+                  <img
+                    src={`https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F${asset}?format=webp&width=800&height=1200`}
+                    alt={alt}
+                    loading="lazy"
+                    className="h-auto w-full"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
