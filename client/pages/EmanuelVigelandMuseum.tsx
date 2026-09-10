@@ -102,7 +102,7 @@ export default function EmanuelVigelandMuseum() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=1600"
               alt="Sammenligning av originalt og nytt design for Emanuel Vigeland Museum"
-              className="h-auto w-full"
+              className="h-auto w-full transition-transform duration-500 ease-out hover:scale-105"
             />
           </div>
         </section>
@@ -125,12 +125,12 @@ export default function EmanuelVigelandMuseum() {
                 ["2276d8c78980409bb193cf2087c72fee", "Emanuel Vigeland Museum utvendig", "left-1/2 top-[165px] -translate-x-1/2 rotate-[-4deg]"],
                 ["dcbc8502002a4585bd325fb8a143dd8f", "Detalj fra museets interiør", "right-[6%] top-[195px] rotate-[7deg]"],
               ].map(([asset, alt, position]) => (
-                <div key={asset} className={`absolute w-[120px] border border-border bg-white p-1 shadow-[0_2px_12px_rgba(0,0,0,.12)] sm:w-[140px] ${position}`}>
+                <div key={asset} className={`absolute w-[120px] overflow-hidden border border-border bg-white p-1 shadow-[0_2px_12px_rgba(0,0,0,.12)] sm:w-[140px] ${position}`}>
                   <img
                     src={`https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F${asset}?format=webp&width=800&height=1200`}
                     alt={alt}
                     loading="lazy"
-                    className="aspect-[3/4] w-full object-cover"
+                    className="aspect-[3/4] w-full object-cover transition-transform duration-500 ease-out hover:scale-105"
                   />
                 </div>
               ))}
