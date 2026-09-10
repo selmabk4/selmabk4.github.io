@@ -123,12 +123,12 @@ export default function EmanuelVigelandMuseum() {
             </div>
             <div className="relative h-[360px] w-full max-w-[420px] lg:w-[420px] lg:shrink-0">
               {[
-                ["804c4de5f06f40e1aca4774ef375ed2b", "Ekskursjon ved Emanuel Vigeland Museum", "left-[2%] top-10 rotate-[-8deg]"],
-                ["3296dc351d334508bf9a87f2c2c742f7", "Interiør fra Emanuel Vigeland Museum", "left-[27%] top-0 rotate-[4deg]"],
-                ["836da0e5234541a8ba359830c85840ef", "Detalj fra museet", "right-[2%] top-8 rotate-[8deg]"],
-                ["20c16f964831427fb466246aa26a920b", "Inngang til museet", "left-[8%] top-[190px] rotate-[5deg]"],
-                ["2276d8c78980409bb193cf2087c72fee", "Emanuel Vigeland Museum utvendig", "left-1/2 top-[165px] -translate-x-1/2 rotate-[-4deg]"],
-                ["dcbc8502002a4585bd325fb8a143dd8f", "Detalj fra museets interiør", "right-[6%] top-[195px] rotate-[7deg]"],
+                ["804c4de5f06f40e1aca4774ef375ed2b", "Ekskursjon ved Emanuel Vigeland Museum", "left-[2%] top-[-20px] rotate-[-8deg]"],
+                ["3296dc351d334508bf9a87f2c2c742f7", "Interiør fra Emanuel Vigeland Museum", "left-[27%] top-[-30px] rotate-[4deg]"],
+                ["836da0e5234541a8ba359830c85840ef", "Detalj fra museet", "right-[2%] top-[-22px] rotate-[8deg]"],
+                ["20c16f964831427fb466246aa26a920b", "Inngang til museet", "left-[8%] top-[160px] rotate-[5deg]"],
+                ["2276d8c78980409bb193cf2087c72fee", "Emanuel Vigeland Museum utvendig", "left-1/2 top-[135px] -translate-x-1/2 rotate-[-4deg]"],
+                ["dcbc8502002a4585bd325fb8a143dd8f", "Detalj fra museets interiør", "right-[6%] top-[165px] rotate-[7deg]"],
               ].map(([asset, alt, position]) => (
                 <div key={asset} className={`absolute w-[120px] overflow-hidden border border-border bg-white p-1 shadow-[0_2px_12px_rgba(0,0,0,.12)] sm:w-[140px] ${position}`}>
                   <img
