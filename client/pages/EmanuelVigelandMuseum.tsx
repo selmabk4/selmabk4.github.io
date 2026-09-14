@@ -218,6 +218,12 @@ export default function EmanuelVigelandMuseum() {
             Funn og Prioriteringer
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6e6329c5e9e84a3583fe5f5dc282ec2e?format=webp&width=800&height=1200"
+            alt="Funn og prioriteringer for Emanuel Vigeland Museum"
+            loading="lazy"
+            className="mt-10 h-auto w-full"
+          />
         </section>
 
         <section className="py-16 sm:py-24">
