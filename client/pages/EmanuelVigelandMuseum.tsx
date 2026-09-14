@@ -100,7 +100,7 @@ export default function EmanuelVigelandMuseum() {
           <div className="mb-10 h-1 w-12 bg-primary" />
           <div className="overflow-hidden border border-border bg-white">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=1600"
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=2400&quality=100"
               alt="Sammenligning av originalt og nytt design for Emanuel Vigeland Museum"
               className="h-auto w-full transition-transform duration-500 ease-out hover:scale-105"
             />
