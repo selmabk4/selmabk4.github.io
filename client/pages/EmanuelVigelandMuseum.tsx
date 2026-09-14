@@ -205,6 +205,12 @@ export default function EmanuelVigelandMuseum() {
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
             Innsiktsarbeidet vårt bygger på tre hovedelementer: en spørrerunde med mausoleets eier under utflukten, en analyse av den eksisterende nettsiden, og en kvantitativ spørreundersøkelse. Vår gruppe tok initiativ til å lage undersøkelsen for klassen, og vi samlet inn hele 108 svar.
           </p>
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd49feebf56df45b8ae050782973fd1f4?format=webp&width=800&height=1200"
+            alt="UX Research for Emanuel Vigeland Museum"
+            loading="lazy"
+            className="mt-10 h-auto w-full"
+          />
         </section>
 
         <section className="border-b border-border py-16 sm:py-24">
