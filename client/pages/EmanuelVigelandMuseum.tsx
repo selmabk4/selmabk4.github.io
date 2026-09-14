@@ -148,6 +148,12 @@ export default function EmanuelVigelandMuseum() {
             Designprosess
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd51dd9ad5b1242a5a538529ce71f0e12?format=webp&width=800&height=1200"
+            alt="Designprosess for Emanuel Vigeland Museum"
+            loading="lazy"
+            className="mt-10 h-auto w-full"
+          />
         </section>
 
         <div className="pt-10">
