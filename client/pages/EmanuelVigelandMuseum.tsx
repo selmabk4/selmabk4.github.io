@@ -1,7 +1,24 @@
 import ContactCta from "@/components/ContactCta";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function EmanuelVigelandMuseum() {
+  const [lightboxImage, setLightboxImage] = useState<{
+    src: string;
+    alt: string;
+  } | null>(null);
+
+  useEffect(() => {
+    if (!lightboxImage) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setLightboxImage(null);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [lightboxImage]);
+
   return (
     <article>
       <section className="border-b border-primary-foreground/20 bg-primary text-primary-foreground">
@@ -99,11 +116,23 @@ export default function EmanuelVigelandMuseum() {
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
           <div className="overflow-hidden border border-border bg-white">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=2400&quality=100"
-              alt="Sammenligning av originalt og nytt design for Emanuel Vigeland Museum"
-              className="h-auto w-full transition-transform duration-500 ease-out hover:scale-105"
-            />
+            <button
+              type="button"
+              className="block w-full cursor-zoom-in text-left"
+              aria-label="Åpne designforslaget i større visning"
+              onClick={() =>
+                setLightboxImage({
+                  src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=2400&quality=100",
+                  alt: "Sammenligning av originalt og nytt design for Emanuel Vigeland Museum",
+                })
+              }
+            >
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6db69a1cf8c14e0dbb67b1c0a98392c7?format=webp&width=2400&quality=100"
+                alt="Sammenligning av originalt og nytt design for Emanuel Vigeland Museum"
+                className="h-auto w-full transition-transform duration-500 ease-out hover:scale-105"
+              />
+            </button>
           </div>
         </section>
 
@@ -148,12 +177,24 @@ export default function EmanuelVigelandMuseum() {
             Designprosess
           </p>
           <div className="h-1 w-12 bg-primary" />
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd51dd9ad5b1242a5a538529ce71f0e12?format=webp&width=800&height=1200"
-            alt="Designprosess for Emanuel Vigeland Museum"
-            loading="lazy"
-            className="mt-10 h-auto w-full"
-          />
+          <button
+            type="button"
+            className="mt-10 block w-full cursor-zoom-in text-left"
+            aria-label="Åpne designprosessen i større visning"
+            onClick={() =>
+              setLightboxImage({
+                src: "https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd51dd9ad5b1242a5a538529ce71f0e12?format=webp&width=800&height=1200",
+                alt: "Designprosess for Emanuel Vigeland Museum",
+              })
+            }
+          >
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd51dd9ad5b1242a5a538529ce71f0e12?format=webp&width=800&height=1200"
+              alt="Designprosess for Emanuel Vigeland Museum"
+              loading="lazy"
+              className="h-auto w-full"
+            />
+          </button>
         </section>
 
         <div className="pt-10">
@@ -167,6 +208,30 @@ export default function EmanuelVigelandMuseum() {
           </Link>
         </div>
       </div>
+      {lightboxImage ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 sm:p-8"
+          role="dialog"
+          aria-modal="true"
+          aria-label={lightboxImage.alt}
+          onClick={(event) => {
+            if (event.target === event.currentTarget) setLightboxImage(null);
+          }}
+        >
+          <button
+            type="button"
+            className="absolute right-4 top-4 border border-white/60 px-3 py-2 text-xs uppercase tracking-[1.2px] text-white transition-colors hover:border-white hover:bg-white hover:text-black sm:right-8 sm:top-8"
+            onClick={() => setLightboxImage(null)}
+          >
+            Lukk
+          </button>
+          <img
+            src={lightboxImage.src}
+            alt={lightboxImage.alt}
+            className="max-h-[90vh] max-w-full object-contain"
+          />
+        </div>
+      ) : null}
       <ContactCta />
     </article>
   );
