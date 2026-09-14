@@ -197,6 +197,27 @@ export default function EmanuelVigelandMuseum() {
           </button>
         </section>
 
+        <section className="border-b border-border py-16 sm:py-24">
+          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+            UX Research
+          </p>
+          <div className="mb-10 h-1 w-12 bg-primary" />
+        </section>
+
+        <section className="border-b border-border py-16 sm:py-24">
+          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+            Funn &amp; Prioriteringer
+          </p>
+          <div className="mb-10 h-1 w-12 bg-primary" />
+        </section>
+
+        <section className="py-16 sm:py-24">
+          <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
+            Løsning og Designsystem
+          </p>
+          <div className="h-1 w-12 bg-primary" />
+        </section>
+
         <div className="pt-10">
           <Link
             to="/"
