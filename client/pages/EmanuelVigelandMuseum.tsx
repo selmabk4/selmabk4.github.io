@@ -177,6 +177,9 @@ export default function EmanuelVigelandMuseum() {
             Designprosess
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+            Vi benyttet Double Diamond-modellen for å sikre en strukturert og brukersentrert prosess. Under konsept- og designfasen (develop) jobbet vi svært iterativt for å optimalisere brukeropplevelsen. Vi hadde spesielt mange runder i overgangen mellom informasjonsarkitektur (sitemap) og tidlige skisser (lo-fi wireframes). Ved å teste og justere strukturen på dette stadiet, kunne vi raskt utforske og kvalitetssikre ulike løsninger før vi gikk videre til detaljert design.
+          </p>
           <button
             type="button"
             className="mt-10 block w-full cursor-zoom-in text-left"
