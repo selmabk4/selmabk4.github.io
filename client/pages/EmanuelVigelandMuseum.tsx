@@ -172,7 +172,7 @@ export default function EmanuelVigelandMuseum() {
           </div>
         </section>
 
-        <section className="border-b border-border pb-16 pt-8 sm:pb-24 sm:pt-12">
+        <section className="pb-16 pt-8 sm:pb-24 sm:pt-12">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Designprosess
           </p>
@@ -200,7 +200,7 @@ export default function EmanuelVigelandMuseum() {
           </button>
         </section>
 
-        <section className="border-b border-border py-16 sm:py-24">
+        <section className="py-16 sm:py-24">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             UX Research
           </p>
@@ -216,7 +216,7 @@ export default function EmanuelVigelandMuseum() {
           />
         </section>
 
-        <section className="border-b border-border py-16 sm:py-24">
+        <section className="py-16 sm:py-24">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Funn og Prioriteringer
           </p>
