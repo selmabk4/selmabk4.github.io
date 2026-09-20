@@ -136,17 +136,17 @@ export default function EmanuelVigelandMuseum() {
           </div>
         </section>
 
-        <section className="py-16 sm:py-24">
+        <section className="py-12 sm:py-16">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Utflukt
           </p>
-          <div className="mb-10 h-1 w-12 bg-primary" />
+          <div className="mb-8 h-1 w-12 bg-primary" />
           <div className="lg:flex lg:items-start lg:gap-12">
             <div className="mb-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base lg:mb-0 lg:flex-1">
               <p>
                 Prosjektet startet med en tur til museet. Slik fikk vi ikke bare innsikt i kunsten og historien der, men også verdifull inspirasjon til å skape museets unike tone of voice.
               </p>
-              <p className="mt-6">
+              <p className="mt-4">
                 Emanuel Vigeland er bror av Gustav Vigeland, som er kjent for Vigelandsparken i Oslo. Mausoleet er mørkt og malt fra gulv til tak. Atmosfæren er spesiell og mystisk.
               </p>
             </div>
@@ -172,17 +172,17 @@ export default function EmanuelVigelandMuseum() {
           </div>
         </section>
 
-        <section className="pb-16 pt-8 sm:pb-24 sm:pt-12">
+        <section className="pb-12 pt-4 sm:pb-16 sm:pt-8">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Designprosess
           </p>
           <div className="h-1 w-12 bg-primary" />
-          <p className="mt-10 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+          <p className="mt-8 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
             Vi benyttet Double Diamond-modellen for å sikre en strukturert og brukersentrert prosess. Under konsept- og designfasen (develop) jobbet vi svært iterativt for å optimalisere brukeropplevelsen. Vi hadde spesielt mange runder i overgangen mellom informasjonsarkitektur (sitemap) og tidlige skisser (lo-fi wireframes). Ved å teste og justere strukturen på dette stadiet, kunne vi raskt utforske og kvalitetssikre ulike løsninger før vi gikk videre til detaljert design.
           </p>
           <button
             type="button"
-            className="mt-10 block w-full cursor-zoom-in text-left"
+            className="mt-8 block w-full cursor-zoom-in text-left"
             aria-label="Åpne designprosessen i større visning"
             onClick={() =>
               setLightboxImage({
@@ -200,11 +200,11 @@ export default function EmanuelVigelandMuseum() {
           </button>
         </section>
 
-        <section className="py-16 sm:py-24">
+        <section className="py-12 sm:py-16">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             UX Research
           </p>
-          <div className="mb-10 h-1 w-12 bg-primary" />
+          <div className="mb-8 h-1 w-12 bg-primary" />
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
             Innsiktsarbeidet vårt bygger på tre hovedelementer: en spørrerunde med mausoleets eier under utflukten, en analyse av den eksisterende nettsiden, og en kvantitativ spørreundersøkelse. Vår gruppe tok initiativ til å lage undersøkelsen for klassen, og vi samlet inn hele 108 svar.
           </p>
@@ -212,31 +212,31 @@ export default function EmanuelVigelandMuseum() {
             src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fd49feebf56df45b8ae050782973fd1f4?format=webp&width=800&height=1200"
             alt="UX Research for Emanuel Vigeland Museum"
             loading="lazy"
-            className="mt-10 h-auto w-full"
+            className="mt-8 h-auto w-full"
           />
         </section>
 
-        <section className="py-16 sm:py-24">
+        <section className="py-12 sm:py-16">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Funn og Prioriteringer
           </p>
-          <div className="mb-10 h-1 w-12 bg-primary" />
+          <div className="mb-8 h-1 w-12 bg-primary" />
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6e6329c5e9e84a3583fe5f5dc282ec2e?format=webp&width=800&height=1200"
             alt="Funn og prioriteringer for Emanuel Vigeland Museum"
             loading="lazy"
-            className="mt-10 h-auto w-full"
+            className="mt-8 h-auto w-full"
           />
         </section>
 
-        <section className="py-16 sm:py-24">
+        <section className="py-12 sm:py-16">
           <p className="mb-3 font-serif text-4xl font-medium tracking-[-0.02em] text-foreground sm:text-5xl">
             Løsning og Designsystem
           </p>
           <div className="h-1 w-12 bg-primary" />
         </section>
 
-        <div className="pt-10">
+        <div className="pt-8">
           <Link
             to="/"
             state={{ scrollTo: "prosjekter" }}
