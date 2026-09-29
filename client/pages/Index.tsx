@@ -68,7 +68,7 @@ export default function Index() {
               Fugleadvokatene
             </h3>
             <p className="mt-2 font-serif text-base font-light italic leading-[1.5] text-muted-foreground">
-              Innholdsproduksjon
+              Grafisk design
             </p>
             <p className="mt-6 max-w-[430px] text-base leading-[1.625] text-foreground">
               Som frivillig i SoMe-teamet til Fugleadvokatene utformer jeg
