@@ -249,6 +249,15 @@ export default function EmanuelVigelandMuseum() {
             Løsning og Designsystem
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <div className="mt-8 aspect-video w-full overflow-hidden border border-border bg-white">
+            <iframe
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjMnYT4hfVCHPJ8Lm3zm1wU%2FDesign%3Fnode-id%3D3130-6633%26viewport%3D3216%252C3501%252C0.3%26t%3DoN7bQWfauvEL2nva-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D3130%253A5406"
+              title="Figma-prototype: Løsning og designsystem"
+              className="h-full w-full"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
         </section>
 
         <div className="pt-8">
