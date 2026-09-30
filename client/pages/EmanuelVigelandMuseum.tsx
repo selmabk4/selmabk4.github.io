@@ -115,10 +115,7 @@ export default function EmanuelVigelandMuseum() {
             Designforslag
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
-          <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
-            Dette representerer det opprinnelige resultatet vi leverte inn som gruppe. I ettertid har jeg valgt å videreutvikle designet, med særlig fokus på å forbedre forsiden og justere på avstander og layout.
-          </p>
-          <div className="mt-8 overflow-hidden border border-border bg-white">
+          <div className="overflow-hidden border border-border bg-white">
             <button
               type="button"
               className="block w-full cursor-zoom-in text-left"
@@ -252,6 +249,9 @@ export default function EmanuelVigelandMuseum() {
             Løsning og Designsystem
           </p>
           <div className="h-1 w-12 bg-primary" />
+          <p className="mt-8 max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+            Dette representerer det opprinnelige resultatet vi leverte inn som gruppe. I ettertid har jeg valgt å videreutvikle designet, med særlig fokus på å forbedre forsiden og justere på avstander og layout.
+          </p>
           <div className="mt-8 aspect-video w-full overflow-hidden border border-border bg-white">
             <iframe
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjMnYT4hfVCHPJ8Lm3zm1wU%2FDesign%3Fnode-id%3D3130-6633%26viewport%3D3216%252C3501%252C0.3%26t%3DoN7bQWfauvEL2nva-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D3130%253A5406"
