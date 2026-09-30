@@ -115,7 +115,10 @@ export default function EmanuelVigelandMuseum() {
             Designforslag
           </p>
           <div className="mb-10 h-1 w-12 bg-primary" />
-          <div className="overflow-hidden border border-border bg-white">
+          <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+            Dette representerer det opprinnelige resultatet vi leverte inn som gruppe. I ettertid har jeg valgt å videreutvikle designet, med særlig fokus på å forbedre forsiden og justere på avstander og layout.
+          </p>
+          <div className="mt-8 overflow-hidden border border-border bg-white">
             <button
               type="button"
               className="block w-full cursor-zoom-in text-left"
