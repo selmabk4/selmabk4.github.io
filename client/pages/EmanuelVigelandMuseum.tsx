@@ -227,6 +227,12 @@ export default function EmanuelVigelandMuseum() {
             loading="lazy"
             className="mt-8 h-auto w-full"
           />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fc45d2e8904e346de9d8cb0b0d09fb7aa?format=webp&width=800&height=1200"
+            alt="MoSCoW-analyse for Emanuel Vigeland Museum"
+            loading="lazy"
+            className="mt-8 h-auto w-full"
+          />
         </section>
 
         <section className="py-12 sm:py-16">
