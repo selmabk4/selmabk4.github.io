@@ -61,6 +61,14 @@ export default function FeaturedProjects() {
       <div className="mt-12 sm:mt-16">
         {projects.map((project, index) => {
           const imageFirst = index % 2 === 1;
+          const projectPath =
+            index === 0
+              ? "/prosjekter/emanuel-vigeland-museum"
+              : index === 1
+                ? "/prosjekter/payoutpartner"
+                : index === 2
+                  ? "/prosjekter/siminnlandet"
+                  : "/prosjekter/tjonnas-og-norvald";
           return (
             <article
               key={project.title}
@@ -109,15 +117,7 @@ export default function FeaturedProjects() {
                   )}
                 </p>
                 <Link
-                  to={
-                    index === 0
-                      ? "/prosjekter/emanuel-vigeland-museum"
-                      : index === 1
-                        ? "/prosjekter/payoutpartner"
-                        : index === 2
-                          ? "/prosjekter/siminnlandet"
-                          : "/prosjekter/tjonnas-og-norvald"
-                  }
+                  to={projectPath}
                   className="mt-2 inline-flex w-fit items-center gap-3 border border-foreground px-[17.6px] py-[8.8px] text-xs uppercase tracking-[1.2px] text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   Se prosjekt
@@ -129,11 +129,17 @@ export default function FeaturedProjects() {
                   imageFirst ? "sm:order-1" : "sm:order-2"
                 }`}
               >
-                <img
-                  src={project.image}
-                  alt={project.imageAlt}
-                  className="h-full w-full object-cover"
-                />
+                <Link
+                  to={projectPath}
+                  aria-label={`Åpne prosjektet ${project.title}`}
+                  className="block h-full w-full"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.imageAlt}
+                    className="h-full w-full object-cover"
+                  />
+                </Link>
               </div>
             </article>
           );
