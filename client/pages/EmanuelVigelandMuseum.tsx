@@ -261,6 +261,15 @@ export default function EmanuelVigelandMuseum() {
               loading="lazy"
             />
           </div>
+          <div className="mt-8 aspect-video w-full overflow-hidden border border-border bg-white">
+            <iframe
+              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FnxFheKNQs3q81gWNwv3QYy%2FDesignsystem%3Fnode-id%3D0-1%26t%3DAMYABGYKWfuLzZKd-1"
+              title="Figma-designsystem"
+              className="h-full w-full"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
         </section>
 
         <div className="pt-8">
