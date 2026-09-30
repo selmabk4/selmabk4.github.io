@@ -224,12 +224,6 @@ export default function EmanuelVigelandMuseum() {
           <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
             Da innsiktsarbeidet var fullført, samlet vi alle funnene og strukturerte de ulike brukerbehovene i et affinity map. Dette ga oss en helhetlig oversikt over mønstre og tematikker i materialet. Deretter tok vi med oss disse behovene inn i en MoSCoW-analyse, hvor vi prioriterte dem systematisk for å definere hva løsningen faktisk må inneholde, og hva som kan vente til senere faser.
           </p>
-          <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
-            <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
-            <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
-              Behov for billettsystem &amp; arrangementoversikt på grunn av museets økende aktivitetsnivå
-            </p>
-          </div>
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6e6329c5e9e84a3583fe5f5dc282ec2e?format=webp&width=800&height=1200"
             alt="Funn og prioriteringer for Emanuel Vigeland Museum"
@@ -242,6 +236,12 @@ export default function EmanuelVigelandMuseum() {
             loading="lazy"
             className="mt-8 h-auto w-full"
           />
+          <div className="mt-8 bg-primary px-6 py-7 text-primary-foreground sm:px-8 sm:py-9">
+            <p className="mb-3 text-xs uppercase tracking-[1.2px]">Hovedfunn</p>
+            <p className="text-lg leading-8 sm:text-2xl sm:leading-9">
+              Behov for billettsystem &amp; arrangementoversikt på grunn av museets økende aktivitetsnivå
+            </p>
+          </div>
         </section>
 
         <section className="py-12 sm:py-16">
