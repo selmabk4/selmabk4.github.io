@@ -221,6 +221,9 @@ export default function EmanuelVigelandMuseum() {
             Funn og Prioriteringer
           </p>
           <div className="mb-8 h-1 w-12 bg-primary" />
+          <p className="max-w-[680px] text-sm leading-7 text-muted-foreground sm:text-base">
+            Da innsiktsarbeidet var fullført, samlet vi alle funnene og strukturerte de ulike brukerbehovene i et affinity map. Dette ga oss en helhetlig oversikt over mønstre og tematikker i materialet. Deretter tok vi med oss disse behovene inn i en MoSCoW-analyse, hvor vi prioriterte dem systematisk for å definere hva løsningen faktisk må inneholde, og hva som kan vente til senere faser.
+          </p>
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F6e6329c5e9e84a3583fe5f5dc282ec2e?format=webp&width=800&height=1200"
             alt="Funn og prioriteringer for Emanuel Vigeland Museum"
