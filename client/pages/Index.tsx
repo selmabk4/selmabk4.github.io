@@ -85,6 +85,33 @@ export default function Index() {
             />
           </figure>
         </article>
+
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-4 sm:gap-4">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2Fe0aa5355cb814c88be4bdf3e5ea3efbb?format=webp&width=800&height=1200"
+            alt="Kampanjebilde for Fugleadvokatene: Vi trenger flere rehabhjem"
+            loading="lazy"
+            className="aspect-[2/3] w-full object-cover"
+          />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F832c6e4eb3b7459d843de3f31bf7884c?format=webp&width=800&height=1200"
+            alt="Informasjon om hva et rehabhjem for byfugler innebærer"
+            loading="lazy"
+            className="aspect-[2/3] w-full object-cover"
+          />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F8112a42a4bf5449cb234a0312a6ba409?format=webp&width=800&height=1200"
+            alt="Informasjon om hvem som passer som rehabhjem for byfugler"
+            loading="lazy"
+            className="aspect-[2/3] w-full object-cover"
+          />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F3230d70555e64ce8a747be55dbb08dd5%2F971841c6347b47bb884b2ffbda3458e8?format=webp&width=800&height=1200"
+            alt="Slik søker du om å bli med i Fugleadvokatenes rehabteam"
+            loading="lazy"
+            className="aspect-[2/3] w-full object-cover"
+          />
+        </div>
       </section>
 
       <ContactCta />
